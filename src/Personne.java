@@ -55,7 +55,7 @@ public class Personne {
 
     public void AfficherAge()
     {
-        System.out.println(this.getAge()+"ans");
+        System.out.println(this.getAge()+" ans");
     }
 
 
