@@ -73,6 +73,11 @@ public class Personne {
     {
         return ""+this.getNom()+" "+this.getPrenom()+" "+this.getAge();
     }
+
+    public void ouMeTrouver()
+    {
+        System.out.println("Je ne sais pas où je suis.");
+    }
 }
 
 

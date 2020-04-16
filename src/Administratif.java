@@ -26,9 +26,12 @@ public class Administratif extends Personnel {
 
     public String toString()
     {
-        return  "";
+        return  super.toString()+this.getFonction();
     }
 
-
+    public void ouMeTrouver()
+    {
+        System.out.println("Le plus facile, c'est de passer à mon bureau.");
+    }
 
 }
