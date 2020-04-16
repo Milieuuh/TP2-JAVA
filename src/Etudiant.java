@@ -42,4 +42,10 @@ public class Etudiant extends Personne {
     {
         return super.toString()+ " Promotion "+this.getPromotion()+". Nombre d'absences : "+this.getNbAbsence();
     }
+
+    public void ouMeTrouver()
+    {
+        System.out.println("Je suis en cours tous les jours, sauf les jeudis après-midis (je fais du sport, mais c'est comme un cours car j'aime le sport");
+
+    }
 }

@@ -55,7 +55,7 @@ public class Personne {
 
     public void AfficherAge()
     {
-        System.out.println(this.getAge()+"ans");
+        System.out.println(this.getAge()+" ans");
     }
 
 
@@ -72,6 +72,11 @@ public class Personne {
     public String toString()
     {
         return ""+this.getNom()+" "+this.getPrenom()+" "+this.getAge();
+    }
+
+    public void ouMeTrouver()
+    {
+        System.out.println("Je ne sais pas où je suis.");
     }
 }
 
