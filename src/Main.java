@@ -9,10 +9,15 @@ public class Main {
         Etudiant e4= new Etudiant();
 
         //administratif
+        Administratif a1=new Administratif("Dupont","Béatrice",19,"Administratif","Enseignant");
 
         //Enseignant
         Enseignant en1 = new Enseignant("Machin", "Boris", 36, "Enseignant", "Informatique", "Electronique");
         System.out.println(en1.toString());
+
+        System.out.println(a1.toString());
+        a1.ouMeTrouver();
+        e1.ouMeTrouver();
 
     }
 }
