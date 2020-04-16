@@ -16,6 +16,12 @@ public class Personnel extends Personne {
         this.service= service;
     }
 
+    //METHODES
+    public String toString()
+    {
+       return super.toString()+"\nService : "+this.getService();
+    }
+
     //SETTER ET GETTER
     public String getService() {
         return service;
