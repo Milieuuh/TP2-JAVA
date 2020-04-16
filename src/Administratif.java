@@ -26,7 +26,7 @@ public class Administratif extends Personnel {
 
     public String toString()
     {
-        return  super.toString()+this.getFonction();
+        return  super.toString()+" - "+this.getFonction();
     }
 
     public void ouMeTrouver()
