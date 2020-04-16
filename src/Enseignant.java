@@ -10,7 +10,8 @@ public class Enseignant extends Personnel {
         super();
     }
 
-    public Enseignant(String nom, String prenom, int age, String service, String matierePrincipale, String matiereSecondaire)
+    public Enseignant(String nom, String prenom, int age, String service,
+                      String matierePrincipale, String matiereSecondaire)
     {
         super(nom,prenom,age, service);
         this.matierePrincipale = matierePrincipale;
@@ -20,7 +21,7 @@ public class Enseignant extends Personnel {
     //METHODES
     public String toString()
     {
-        return super.toString()+"\nMatière Principale : "+this.getMatierePrincipale()+"\nMatière secondaire : "+ this.getMatiereSecondaire();
+        return super.toString()+" Matière Principale : "+this.getMatierePrincipale()+" Matière secondaire : "+ this.getMatiereSecondaire();
     }
 
     public void ouMeTrouver()

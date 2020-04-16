@@ -6,7 +6,6 @@ public class Personnel extends Personne {
     public Personnel()
     {
         super();
-
     }
 
     public Personnel(String nom, String prenom, int age, String service)
@@ -19,7 +18,7 @@ public class Personnel extends Personne {
     //METHODES
     public String toString()
     {
-       return super.toString()+"\nService : "+this.getService();
+       return super.toString()+" Service : "+this.getService();
     }
 
     //SETTER ET GETTER

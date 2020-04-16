@@ -8,7 +8,8 @@ public class Administratif extends Personnel {
         fonction="Inconnue";
     }
 
-    public Administratif(String nom, String prenom, int age,String service, String fonction)
+    public Administratif(String nom, String prenom, int age,
+                         String service, String fonction)
     {
         super(nom,prenom,age,service);
         this.fonction=fonction;
