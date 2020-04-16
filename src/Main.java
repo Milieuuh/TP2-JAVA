@@ -9,7 +9,7 @@ public class Main {
         Etudiant e4= new Etudiant();
 
         //administratif
-        Administratif a1=new Administratif("Dupont","Béatrice",19,"Administratif","Enseignant");
+        Administratif a1=new Administratif("Dupont","Béatrice",19,"Administratif","Secrétaire");
 
         //Enseignant
         Enseignant en1 = new Enseignant("Machin", "Boris", 36, "Enseignant", "Informatique", "Electronique");
