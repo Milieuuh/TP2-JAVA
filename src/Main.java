@@ -10,5 +10,9 @@ public class Main {
 
         //administratif
 
+        //Enseignant
+        Enseignant en1 = new Enseignant("Machin", "Boris", 36, "Enseignant", "Informatique", "Electronique");
+        System.out.println(en1.toString());
+
     }
 }
