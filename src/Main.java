@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Personnel p = new Personnel("toto","tata",3);
+
+        p.AfficherAge();
     }
 }
