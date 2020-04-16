@@ -11,8 +11,6 @@ public class Personnel extends Personne {
         super(nom,prenom,age);
     }
 
-    public void AfficherAge()
-    {
-        System.out.println("Ce personnel a "+ age + "an(s)");
-    }
+
+
 }
