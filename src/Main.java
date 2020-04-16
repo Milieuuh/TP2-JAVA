@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Personne tabPersonne[]=new Personne[5];
+        Personne tabPersonne[]=new Personne[6];
 
         //etudiants
         Etudiant e1= new Etudiant("Dupont","Alice",21,"Pascal");
@@ -15,9 +15,9 @@ public class Main {
 
         //Enseignant
         Enseignant en1 = new Enseignant("Machin", "Boris", 36, "Enseignant", "Informatique", "Electronique");
-       /* System.out.println(en1.toString());
+       /* System.out.println(en1);
 
-        System.out.println(a1.toString());
+        System.out.println(a1);
         a1.ouMeTrouver();
         e1.ouMeTrouver();*/
 
@@ -31,8 +31,9 @@ public class Main {
 
         for(int i=0;i<tabPersonne.length;i++)
         {
-            System.out.println(tabPersonne[i].toString());
+            System.out.println(tabPersonne[i]);
             tabPersonne[i].ouMeTrouver();
+            System.out.println("\n");
         }
     }
 }
