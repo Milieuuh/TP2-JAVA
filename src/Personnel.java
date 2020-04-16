@@ -4,13 +4,12 @@ public class Personnel extends Personne {
     public Personnel()
     {
         super();
+
     }
 
     public Personnel(String nom, String prenom, int age)
     {
         super(nom,prenom,age);
     }
-
-
 
 }
