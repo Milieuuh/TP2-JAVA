@@ -68,6 +68,11 @@ public class Personne {
     {
         System.out.println(this.getPrenom());
     }
+
+    public String toString()
+    {
+        return ""+this.getNom()+" "+this.getPrenom()+" "+this.getAge();
+    }
 }
 
 

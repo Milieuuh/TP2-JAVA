@@ -36,4 +36,10 @@ public class Etudiant extends Personne {
     public void setNbAbsence(int nbAbsence) {
         this.nbAbsence=nbAbsence;
     }
+
+    ///methodes
+    public String toString()
+    {
+        return super.toString()+ " Promotion "+this.getPromotion()+". Nombre d'absences : "+this.getNbAbsence();
+    }
 }
