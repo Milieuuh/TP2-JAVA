@@ -17,11 +17,18 @@ public class Enseignant extends Personnel {
         this.matiereSecondaire = matiereSecondaire;
     }
 
-    //METHODE POUR AFFICHER
+    //METHODES
     public String toString()
     {
         return super.toString()+"\nMatière Principale : "+this.getMatierePrincipale()+"\nMatière secondaire : "+ this.getMatiereSecondaire();
     }
+
+    public void ouMeTrouver()
+    {
+        System.out.println("Ce n’est pas la peine de me chercher, je saurai vous trouver !");
+    }
+
+
     //GETTER SETTER
     public String getMatierePrincipale() {
         return matierePrincipale;
